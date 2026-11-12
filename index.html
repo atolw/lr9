@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Game of 21</title>
+</head>
+<body>
+  <div class="container">
+    <div class="vertical">
+      <div id="userName"></div>
+      <div id="userScore" class="score">Score: 0</div>
+      <div id="userCards" class="cards"></div>
+    </div>
+    
+    <div class="controls">
+      <button onclick="generate()">Generate</button>
+      <div id="result" class="result"></div>
+    </div>
+
+    <div class="vertical">
+      <div>Super Intelligence</div>
+      <div id="siScore" class="score">Score: 0</div>
+      <div id="siCards" class="cards"></div>
+    </div>
+  </div>
+   
+  <script src="script.js"></script>
+</body>
+</html>
